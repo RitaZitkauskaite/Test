@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Nunito", sans-serif;
+}
+header nav {
+	padding: 15px 40px;
+	background-color: white;
+}
+header nav a {
+	text-decoration: none;
+	color: #333333;
+	font-weight: bold;
+}
+body {
+	background-color: #f8f8f8;
+}
+.intro-text {
+	text-align: center;
+	/* padding: 15px 0; */
+	padding: 100px 0;
+}
+.intro-text h3 {
+	font-size: 32px;
+	font-weight: normal;
+	color: #333333;
+}
+.intro-text h1 {
+	font-size: 48px;
+	font-weight: normal;
+	line-height: 0.8;
+	font-weight: 800;
+	color: #333333;
+}
+.people {
+	text-align: center;
+}
+.people .person {
+	width: 250px;
+	display: inline-block;
+	text-align: center;
+	margin-bottom: 25px;
+	padding: 25px 0 35px;
+}
+.people .person .circle {
+	height: 135px;
+	width: 135px;
+	background-color: #333333;
+	border-radius: 50%;
+	margin: 0 auto 35px;
+}
+.people .person h1 {
+	font-size: 32px;
+	font-weight: 600;
+}
+.people .person h4 {
+	font-size: 16px;
+	color: #686868;
+	font-weight: 600;
+	line-height: 0.5;
+	margin-bottom: 15px;
+}
+.people .person p {
+	text-align: justify;
+	line-height: 1.5;
+	padding-left: 15px;
+}
+hr {
+	margin: 75px 50px;
+	border-top: 1px solid #cfcfcf;
+}
+/* 
+	width - min width/max width
+
+ */
+.table-section table {
+	width: 100%;
+	border-spacing: 0 15px;
+	padding: 0 50px;
+	max-width: 1300px;
+	margin: 0 auto 100px;
+}
+td,
+th {
+	padding: 20px;
+	text-align: center;
+	/* border: 1px solid black; */
+}
+th {
+	color: white;
+	background-color: #6685ed;
+}
+td {
+	background-color: white;
+}
+th:first-child,
+td:first-child {
+	text-align: left;
+	border-top-left-radius: 8px;
+	border-bottom-left-radius: 8px;
+}
+th:last-child,
+td:last-child {
+	text-align: right;
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+/* 
+	pasirenkam vidurini vaika su kitu selektoriumi: 
+	td:nth-child(2) { background-color:red;}
+    td:nth-last-element  { background-color:red;}
+ */
+.contact {
+	background-color: #5e5e5e;
+	padding-bottom: 150px;
+}
+.contact h1 {
+	color: white;
+	font-size: 48px;
+	padding: 75px 0;
+	text-align: center;
+	font-weight: 600;
+	letter-spacing: 5.5;
+}
+label {
+	margin: 10px;
+	color: white;
+	display: block;
+}
+.contact input,
+.contact textarea {
+	display: block;
+	width: 100%;
+	max-width: 650px;
+	border-radius: 8px;
+	border: none;
+	padding: 10px;
+}
+.contact input {
+	padding: 5px 5;
+}
+.contact button {
+	background-color: #6685ed;
+	color: white;
+	padding: 5px 75px;
+	border: none;
+	border-radius: 30px;
+	font-size: 24px;
+	display: block;
+	margin: 30px auto;
+	cursor: pointer;
+}
+.contact form {
+	max-width: 650px;
+	margin: 0 auto;
+}
+footer {
+	height: 65px;
+	background-color: #6685ed;
+}
